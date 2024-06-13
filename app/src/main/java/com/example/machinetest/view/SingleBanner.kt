@@ -31,7 +31,7 @@ fun SingleBanner(modifier: Modifier = Modifier, source: String) {
 @Composable
 internal fun CoilImageLoader(modifier: Modifier = Modifier, source: String) {
     SubcomposeAsyncImage(
-        model = source,
+        model = "https://i.postimg.cc/65gDYwtD/Rectangle-26.png",
         modifier = modifier
             .fillMaxWidth()
             .clip(shape = RoundedCornerShape(10.dp)),

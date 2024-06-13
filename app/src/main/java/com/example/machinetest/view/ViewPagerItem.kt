@@ -26,7 +26,7 @@ fun ViewPagerItem(imageUrl : String) {
         contentAlignment = Alignment.Center
     ) {
         SubcomposeAsyncImage(
-            model = imageUrl,
+            model = "https://i.postimg.cc/65gDYwtD/Rectangle-26.png",
             modifier = Modifier
                 .fillMaxWidth()
                 .clip(shape = RoundedCornerShape(10.dp)),

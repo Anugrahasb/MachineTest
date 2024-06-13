@@ -66,7 +66,7 @@ fun CategoryItem(value: Content) {
                         .fillMaxWidth(0.5f)
                         .aspectRatio(1f)
                         .clip(RoundedCornerShape(8.dp)),
-                    source = it
+                    source = "https://i.postimg.cc/j258pNbt/shopping-basket-full-of-variety-of-grocery-products-food-and-drink-isolated-on-white-background-3d-i.png"
                 )
             }
             Spacer(modifier = Modifier.height(8.dp))

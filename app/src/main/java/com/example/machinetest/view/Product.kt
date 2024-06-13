@@ -65,13 +65,13 @@ fun Product(
                 .background(color = Color.White),
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
-            value.imageUrl?.let {
+            value.imageUrl.let {
                 CoilImage(
                     modifier = Modifier
                         .fillMaxWidth(0.7f)
                         .aspectRatio(1f)
                         .clip(RoundedCornerShape(8.dp)),
-                    source = it
+                    source = "https://i.postimg.cc/c1B00NGz/Lenovo-K3-Mini-Outdoor-Wireless-Speaker-1.png"
                 )
             }
             Column(
